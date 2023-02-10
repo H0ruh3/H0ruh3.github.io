@@ -38,6 +38,9 @@ header h3 {
   color: #2e8fff;
   font-weight: 600;
 }
+header span {
+  color: #ffffff
+}
 
 main {
   display: flex;
@@ -53,7 +56,7 @@ main a {
   font-weight: 500;
   transition: all 0.3 ease-in-out;
   border-radius: 10px;
-  box-shadow: 5px 5px whitesmoke;
+  box-shadow: 5px 5px #1f1f24;
 }
 main a:hover {
   transform: rotateY(-15deg);
